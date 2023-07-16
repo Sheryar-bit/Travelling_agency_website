@@ -1,0 +1,200 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav
+{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+nav .logo
+{
+    width: 25%;
+    text-align: center;
+}
+nav .menu
+{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+
+}
+nav .menu a:hover
+{
+    transform: scale(1.1);
+
+}
+section
+{
+    position: relative;
+    left: 680px;
+}
+main
+{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section h3
+{
+     font-size: 35px;
+     font-weight: 200;
+     letter-spacing: 3px;
+     position: relative;
+     bottom: 60px;
+}
+section h1
+{
+    font-size:55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 270px;
+}
+section p
+{
+    font-size: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    bottom: 180px;
+    color: black;
+    font-weight: bold;
+
+}
+section a{
+    padding: 12px 30px;
+    border-radius:  4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    bottom: 300px;
+}
+section .btnone
+{
+    background: white;
+    color:black;
+    position: relative;
+    bottom:180px;
+    
+}
+section .btntwo
+{
+    background: cyan;
+    color:black;
+    position: relative;
+    bottom:180px;
+    
+}
+
+.box1
+{
+    position: relative;
+    top: 250px;
+    right: 400px;
+    width: 400px;
+    transition: 1s;
+    height: 200px;
+    
+}
+.box1 :hover
+{
+    transform: scale(1.1);
+}
+.box2
+{
+    position: relative;
+    top: 250px;
+    right: 300px;
+    width: 400px;
+    transition: 1s;
+    
+}
+.box2 :hover
+{
+    transform: scale(1.1);
+}
+.box3
+{
+    position: relative;
+    top: 250px;
+    right: 180px;
+    width: 500px;
+    transition: 1s;
+    
+}
+.box3 :hover
+{
+    transform: scale(1.1);
+}
+.hom
+{
+    display: none;
+
+}
+.menu ul li:hover
+{
+    display: block;
+    position: absolute;
+    background-color: aquamarine;
+    margin-top:15px ;
+    margin-left: 15px;
+
+}
+.oo
+{
+    position: relative;
+    left: 400px;
+    top: 30px;
+    color: black;
+    font-weight: -100;
+    
+}
+.hel
+{
+    position: relative;
+    right: 200px;
+    top:120px;
+}
+.nel
+{
+    position: relative;
+    right: 120px;
+    top: 120px;
+}
+.pel
+{
+    position: relative;
+    left: 40px;
+    top: 120px;
+}
+
+
